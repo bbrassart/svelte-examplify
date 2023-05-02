@@ -1,3 +1,10 @@
+# Playing around with SvelteKit
+
+In this demo application ([deployed to Heroku](https://bbrassart-svelte-examplify.herokuapp.com/)), I'm exploring the good stuff from SvelteKit. The `/blog` page is server-side rendered. 
+Before the HTML is being shipped to the client's browser, perform a GET request to a dummy API to fetch some data. This is possible thanks to the `#fetch` method being made available by SvelteKit on the server-side.
+The other marketing page is a static page.
+
+
 # create-svelte
 
 Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/master/packages/create-svelte).
